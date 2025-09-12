@@ -1,0 +1,51 @@
+{
+  "name": "qiskit-fall-fest-2024-website",
+  "version": "1.0.0",
+  "description": "Official website for Qiskit Fall Fest 2024 at IIT Guwahati",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "static": "npx http-server src -p 3000 -o",
+    "build": "echo 'Build process would go here'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "qiskit",
+    "quantum-computing",
+    "fall-fest",
+    "bits-goa",
+    "website",
+    "event",
+    "nodejs",
+    "express"
+  ],
+  "author": "Qiskit Fall Fest 2024 Team",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qiskit-fall-fest-2024/website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qiskit-fall-fest-2024/website/issues"
+  },
+  "homepage": "https://qiskit-fall-fest-2024.github.io/website",
+  "os": [
+    "win32",
+    "darwin",
+    "linux"
+  ],
+  "preferGlobal": false,
+  "private": true
+}
